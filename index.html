@@ -128,6 +128,21 @@ p + p {margin-top:14px;}
   background:var(--main2); color:#000; font-weight:800;
   border:none; padding:10px 14px; cursor:pointer;
 }
+.check {
+  color: #00ff66; /* verde vibrante para os checks */
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+/* espaçamento extra apenas nas seções pedidas */
+.como-funciona p,
+.o-que-vai-receber p,
+.como-agendar p {
+  margin-top: 22px;
+  margin-bottom: 22px;
+  line-height: 1.8;
+}
+
 footer {color:var(--muted);font-size:13px;margin-top:30px;}
 </style>
 </head>
@@ -145,7 +160,7 @@ footer {color:var(--muted);font-size:13px;margin-top:30px;}
     <p>A Análise de Conta Shopee é uma sessão individual e personalizada, feita ao vivo por videochamada, voltada para vendedores que não estão conseguindo vender ou escalar suas vendas dentro da plataforma. Durante a call, o cliente abre sua loja, mostra os produtos, campanhas e anúncios (incluindo Shopee Ads, se estiver ativo), e juntos analisamos todos os pontos que podem estar bloqueando o crescimento das vendas. O objetivo é encontrar os erros, entender o que está travando a conta e oferecer orientações práticas e diretas, baseadas em experiência real de quem já performa alto na Shopee.</p>
   </section>
 
-  <section class="card">
+  <section class="card como-funciona">
     <h2>⚙️ COMO FUNCIONA NA PRÁTICA</h2>
     <p>1. O cliente agenda um horário para a videochamada (por Google Meet ou Zoom).</p>
     <p>2. Durante a sessão, o cliente compartilha a tela da loja Shopee e mostra seus produtos, preços, anúncios e campanhas do Shopee Ads.</p>
@@ -161,20 +176,14 @@ footer {color:var(--muted);font-size:13px;margin-top:30px;}
 
   <section class="card">
     <h2>🎯 INDICADO PARA</h2>
-
-    <p><span style="color:#00FF7F;">✔</span> Quem não está conseguindo vender mesmo com anúncios ativos.</p><br><br>
-
-    <p><span style="color:#00FF7F;">✔</span> Quem teve queda nas vendas e não sabe o motivo.</p><br><br>
-
-    <p><span style="color:#00FF7F;">✔</span> Quem quer entender como melhorar ranqueamento, margem e tráfego.</p><br><br>
-
-    <p><span style="color:#00FF7F;">✔</span> Quem acabou de abrir loja e quer começar do jeito certo.</p><br><br>
-
-    <p><span style="color:#00FF7F;">✔</span> Quem já vende bem, mas quer escalar com segurança e consistência.</p>
-
+    <p><span class="check">✔</span> Quem não está conseguindo vender mesmo com anúncios ativos.</p>
+    <p><span class="check">✔</span> Quem teve queda nas vendas e não sabe o motivo.</p>
+    <p><span class="check">✔</span> Quem quer entender como melhorar ranqueamento, margem e tráfego.</p>
+    <p><span class="check">✔</span> Quem acabou de abrir loja e quer começar do jeito certo.</p>
+    <p><span class="check">✔</span> Quem já vende bem, mas quer escalar com segurança e consistência.</p>
   </section>
 
-  <section class="card">
+  <section class="card o-que-vai-receber">
     <h2>📦 O QUE VOCÊ VAI RECEBER</h2>
     <p class="underline">Diagnóstico ao vivo da sua loja.</p>
     <p class="underline">Orientações sobre títulos, fotos, precificação e campanhas.</p>
@@ -189,7 +198,7 @@ footer {color:var(--muted);font-size:13px;margin-top:30px;}
     <p>Esta análise não é uma aula genérica nem uma consultoria mensal. É uma sessão prática e objetiva, voltada para resolver de imediato os problemas da sua loja. Durante a call, você sai com um plano de ação pronto para aplicar, com base em experiência real de mercado e resultados comprovados.</p>
   </section>
 
-  <section class="card">
+  <section class="card como-agendar">
     <h2>📅 COMO AGENDAR SUA ANÁLISE</h2>
     <p>1. Envie uma mensagem solicitando seu agendamento.</p>
     <p>2. Faça o pagamento de R$ 99,00.</p>
